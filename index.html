@@ -2,75 +2,106 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>hello phaser!</title>
-       
+        <title>Game</title>
         <script src=" https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.10.1/phaser.js"></script>
     </head>
     <body>
-
     <script type="text/javascript">
 
-
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+        let game = new Phaser.Game(1300, 620, Phaser.AUTO, 'phaser-example', {
+            preload: preload,
+            create: create,
+            update: update,
+            render: render
+        });
 
         function preload () {
-
-            game.load.atlas('sheep', 'assets/games/.../.....png', 'assets/...json');
-            game.load.image('sea', 'assets/games/..../.png');
-           
+            game.stage.disableVisibilityChange = true;
+            game.load.image('ship', 'images/ship.png');
+            game.load.atlas('sea', 'images/water2.png', 'images/water.json');
+            game.load.image('island1', 'images/island.png');
+            game.load.image('island2','images/island_2.png');
+            game.load.image('island3','images/island_3.png');
+            game.load.image('pirates', 'images/pirate_ship.png');
+            game.load.image('land_1', 'images/land_1.png');
         }
 
-        var ocean;
-        var sheep;
-        var currentSpeed = 0;
+        let ocean;
+        let currentSpeed = 0;
+
 
 
         function create () {
+            game.world.setBounds(-1500, -1500, 2500, 2500);
 
-
-            game.world.setBounds(-1000, -1000, 2000, 2000);
-
-
-            ocean = game.add.tileSprite(0, 0, 800, 600, 'sea');
+            //create ocean
+            ocean = game.add.tileSprite(0, 0, 1300, 620, 'sea');
+            ocean.animations.add('waves');
+            ocean.animations.play('waves',20, true);
             ocean.fixedToCamera = true;
 
+            //create ship;
+            ship = game.add.sprite(0, 0, 'ship');
+            ship.anchor.setTo(0.5, 0.5);
+            game.physics.enable(ship,Phaser.Physics.ARCADE);
+            ship.body.drag.set(0.5);
+            ship.body.maxVelocity.setTo(100, 100);
+            ship.body.collideWorldBounds = true;
+            //create islands
+            island1=game.add.sprite(0,0,'island1');
+            island2=game.add.sprite(-700,-1000,'island2');
+            island3=game.add.sprite(300,-800,'island3');
+            land_1=game.add.sprite(-300,-600,'land_1');
 
-            sheep = game.add.sprite(0, 0, 'sheep', 'tank1');
-            sheep.anchor.setTo(0.5, 0.5);
-            sheep.animations.add('move', ['1', '2', '3', '4', '5', '6'], 20, true);
 
 
-            game.physics.enable(sheep, Phaser.Physics.ARCADE);
-            sheep.body.drag.set(0.5);
-            sheep.body.maxVelocity.setTo(300, 300);
-            sheep.body.collideWorldBounds = true;
 
-
-            game.camera.follow(sheep);
-            game.camera.deadzone = new Phaser.Rectangle(150, 150, 500, 300);
+            //camera
+            game.camera.follow(ship);
+            game.camera.deadzone = new Phaser.Rectangle(450, 250, 450, 100);
             game.camera.focusOnXY(0, 0);
 
             cursors = game.input.keyboard.createCursorKeys();
 
+            //pirates
+            for (let i = 0; i < 10; i++) {
+                let pirate_ship = game.add.sprite(game.rnd.between(900, 1500), game.world.randomY, 'pirates' );
+                game.physics.arcade.enable(pirate_ship);
+                pirate_ship.body.velocity.x = game.rnd.between(-25, -50);
+                pirate_ship.autoCull = true;
+                pirate_ship.checkWorldBounds = true;
+                pirate_ship.events.onOutOfBounds.add(resetSprite, this);
+            }
+
+
+
+
+
         }
 
 
+
+
+
+        function resetSprite(sprite) {
+
+            sprite.x = game.world.bounds.right;
+
+        }
         function update () {
-
-
             if (cursors.left.isDown)
             {
-                sheep.angle -= 2;
+                ship.angle -= 2;
             }
             else if (cursors.right.isDown)
             {
-                sheep.angle += 2;
+                ship.angle += 2;
             }
 
             if (cursors.up.isDown)
             {
 
-                currentSpeed = 100;
+                currentSpeed = 200;
             }
             else
             {
@@ -81,12 +112,16 @@
             }
             if (currentSpeed > 0)
             {
-                game.physics.arcade.velocityFromRotation(sheep.rotation, currentSpeed, sheep.body.velocity);
+                game.physics.arcade.velocityFromRotation(ship.rotation, currentSpeed, ship.body.velocity);
             }
 
             ocean.tilePosition.x = -game.camera.x;
             ocean.tilePosition.y = -game.camera.y;
+
         }
+
+
+
 
         function render () {
 
@@ -135,12 +170,12 @@
 
 
 
-          var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
-          var game = new Phaser.Game(1000, 800, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+          let game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+          let game = new Phaser.Game(1000, 800, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update, render: render });
 
-          var tilesprite;
-          var cursors;
-          var count = 0;
+          let tilesprite;
+          let cursors;
+          let count = 0;
 
           function preload() {
 
@@ -148,15 +183,15 @@
 
           }
 
-          var sprite;
-          var bot;
+          let sprite;
+          let bot;
 
           function create() {
 
               bot = game.add.sprite(400, 400, 'bot');
 
               //  Here we add a new animation called 'run'
-              //  We haven't specified any frames because it's using every frame in the texture atlas
+              //  We haven't specified any frames because it'pirate_ship using every frame in the texture atlas
               bot.animations.add('ocean');
 
               //  And this starts the animation playing by using its key ("run")
