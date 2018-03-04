@@ -24,15 +24,19 @@
             game.load.image('island3','images/island_3.png');
             game.load.image('pirates', 'images/pirate_ship.png');
             game.load.image('land_1', 'images/land_1.png');
+            game.load.physics('physicsData', 'images/island_2.json');
         }
 
         let ocean;
         let currentSpeed = 0;
-
-
+        let island2;
 
         function create () {
-            game.world.setBounds(-1500, -1500, 2500, 2500);
+			game.physics.startSystem(Phaser.Physics.P2JS);
+
+            //game.physics.startSystem(Phaser.Physics.ARCADE);
+
+            game.world.setBounds(-2000, -2000, 4000, 4000);
 
             //create ocean
             ocean = game.add.tileSprite(0, 0, 1300, 620, 'sea');
@@ -40,18 +44,40 @@
             ocean.animations.play('waves',20, true);
             ocean.fixedToCamera = true;
 
+            //create islands
+            island1=game.add.sprite(0,0,'island1');
+            island2=game.add.sprite(-1000,-300,'island2');
+            island3=game.add.sprite(300,-500,'island3');
+            land_1=game.add.sprite(-300,-100,'land_1');
+
             //create ship;
             ship = game.add.sprite(0, 0, 'ship');
             ship.anchor.setTo(0.5, 0.5);
-            game.physics.enable(ship,Phaser.Physics.ARCADE);
-            ship.body.drag.set(0.5);
-            ship.body.maxVelocity.setTo(100, 100);
-            ship.body.collideWorldBounds = true;
-            //create islands
-            island1=game.add.sprite(0,0,'island1');
-            island2=game.add.sprite(-700,-1000,'island2');
-            island3=game.add.sprite(300,-800,'island3');
-            land_1=game.add.sprite(-300,-600,'land_1');
+
+            game.physics.p2.enable([ship,island2,island3,land_1],false);
+            ship.body.clearShapes();
+			ship.body.loadPolygon('physicsData', 'ship');
+			island2.body.clearShapes();
+			island2.body.loadPolygon('physicsData', 'island_2');
+			island3.body.clearShapes();
+			island3.body.loadPolygon('physicsData', 'island_3');
+			land_1.body.clearShapes();
+			land_1.body.loadPolygon('physicsData', 'land_1');
+            //ship.body.drag.set(0.5);
+            //ship.body.maxVelocity.setTo(100, 100);
+            //ship.body.collideWorldBounds = true;
+             island2.body.static = true;
+             island3.body.static = true;
+			 land_1.body.static = true;
+
+        	ship.body.damping = 0.9;
+            ship.body.mass = 1;
+
+
+
+
+
+
 
 
 
@@ -63,7 +89,9 @@
 
             cursors = game.input.keyboard.createCursorKeys();
 
+
             //pirates
+            /*
             for (let i = 0; i < 10; i++) {
                 let pirate_ship = game.add.sprite(game.rnd.between(900, 1500), game.world.randomY, 'pirates' );
                 game.physics.arcade.enable(pirate_ship);
@@ -72,9 +100,7 @@
                 pirate_ship.checkWorldBounds = true;
                 pirate_ship.events.onOutOfBounds.add(resetSprite, this);
             }
-
-
-
+			*/
 
 
         }
@@ -83,12 +109,40 @@
 
 
 
-        function resetSprite(sprite) {
+     function resetSprite(sprite) {
 
-            sprite.x = game.world.bounds.right;
+           sprite.x = game.world.bounds.right;
 
         }
+
         function update () {
+
+if (cursors.left.isDown)
+    {
+        ship.body.rotateLeft(50);
+    }
+    else if (cursors.right.isDown)
+    {
+        ship.body.rotateRight(50);
+    }
+    else
+    {
+        ship.body.setZeroRotation();
+    }
+
+    if (cursors.up.isDown)
+    {
+        ship.body.thrust(250);
+    }
+    else if (cursors.down.isDown)
+    {
+        ship.body.reverse(50);
+    }
+
+
+/*
+        	            // game.physics.arcade.collide(ship, island2);
+
             if (cursors.left.isDown)
             {
                 ship.angle -= 2;
@@ -113,8 +167,10 @@
             if (currentSpeed > 0)
             {
                 game.physics.arcade.velocityFromRotation(ship.rotation, currentSpeed, ship.body.velocity);
-            }
 
+
+            }
+*/
             ocean.tilePosition.x = -game.camera.x;
             ocean.tilePosition.y = -game.camera.y;
 
