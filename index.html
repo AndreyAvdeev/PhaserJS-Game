@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <title>Game</title>
-        <script src=" https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.10.1/phaser.js"></script>
+        <script src="phaser.min.js"></script>
+        <script src="images/checkbox.js"></script>
     </head>
     <body>
     <script type="text/javascript">
@@ -16,83 +17,99 @@
         });
 
         function preload () {
+            game.time.advancedTiming = true;
             game.stage.disableVisibilityChange = true;
-            game.load.image('ship', 'images/ship.png');
-            game.load.atlas('sea', 'images/water2.png', 'images/water.json');
-            game.load.image('island1', 'images/island.png');
-            game.load.image('island2','images/island_2.png');
-            game.load.image('island3','images/island_3.png');
-            game.load.image('pirates', 'images/pirate_ship.png');
-            game.load.image('land_1', 'images/land_1.png');
-            game.load.physics('physicsData', 'images/island_2.json');
+            game.load.image('ship', 'Containers/Ship/assets/boat.png');
+            game.load.image('sea', 'Containers/Water/ic_cell.png');
+            game.load.image('island_1', 'Containers/Islands/Island_1/assets/island_1.png');
+            game.load.image('island_2','Containers/Islands/Island_2/assets/island_2.png');
+            game.load.physics('ship_col', 'Containers/Ship/collisions/ship_col.json');
+            game.load.physics('island_1_col', 'Containers/Islands/Island_1/collisions/island_1_col.json');
+            game.load.physics('island_2_col', 'Containers/Islands/Island_2/collisions/island_2_col.json');
+
+            //ship details
+            game.load.image('ship', 'Containers/Ship/assets/boat.png');
+            game.load.image('fish', 'Containers/Ship/assets/fish.png');
+            game.load.image('boxes','Containers/Ship/assets/boxes.png');
+            game.load.image('sail', 'Containers/Ship/assets/sail.png');
+            game.load.image('parent_point','Containers/Ship/assets/parent_point.png');
+            game.load.atlas('handweel', 'Containers/Ship/gui/handweel.png', 'Containers/Ship/gui/handweel.json');
+
         }
 
-        let ocean;
-        let currentSpeed = 0;
-        let island2;
 
         function create () {
-			game.physics.startSystem(Phaser.Physics.P2JS);
 
-            //game.physics.startSystem(Phaser.Physics.ARCADE);
-
+            game.physics.startSystem(Phaser.Physics.P2JS);
             game.world.setBounds(-2000, -2000, 4000, 4000);
-
             //create ocean
             ocean = game.add.tileSprite(0, 0, 1300, 620, 'sea');
-            ocean.animations.add('waves');
-            ocean.animations.play('waves',20, true);
             ocean.fixedToCamera = true;
+            ocean.inputEnabled = true;
+            ocean.events.onInputDown.add(stop_animation, this);
 
             //create islands
-            island1=game.add.sprite(0,0,'island1');
-            island2=game.add.sprite(-1000,-300,'island2');
-            island3=game.add.sprite(300,-500,'island3');
-            land_1=game.add.sprite(-300,-100,'land_1');
+           island_1 = game.add.sprite(-300, -100, 'island_1');
+           island_2 = game.add.sprite(-1000, -300, 'island_2');
 
-            //create ship;
-            ship = game.add.sprite(0, 0, 'ship');
-            ship.anchor.setTo(0.5, 0.5);
 
-            game.physics.p2.enable([ship,island2,island3,land_1],false);
-            ship.body.clearShapes();
-			ship.body.loadPolygon('physicsData', 'ship');
-			island2.body.clearShapes();
-			island2.body.loadPolygon('physicsData', 'island_2');
-			island3.body.clearShapes();
-			island3.body.loadPolygon('physicsData', 'island_3');
-			land_1.body.clearShapes();
-			land_1.body.loadPolygon('physicsData', 'land_1');
-            //ship.body.drag.set(0.5);
-            //ship.body.maxVelocity.setTo(100, 100);
-            //ship.body.collideWorldBounds = true;
-             island2.body.static = true;
-             island3.body.static = true;
-			 land_1.body.static = true;
 
-        	ship.body.damping = 0.9;
+            function start_animation() {
+                handweel.animations.add('run');
+                handweel.animations.play('run', 33, false);
+            }
+
+            function stop_animation() {
+                handweel.animations.stop('run', 33, false);
+            }
+
+            //create ship
+            ship = game.add.sprite(0, 0, 'parent_point');
+            game.physics.p2.enable(ship, false);
+            handweel = game.add.sprite(0, 0, 'handweel');
+            ship.addChild(handweel);
+            handweel.anchor.setTo(0.5, 0.5);
+            base_ship = game.add.sprite(0, 0, 'ship');
+            fish = game.add.sprite(0, 0, 'fish');
+            boxes = game.add.sprite(0, 0, 'boxes');
+            sail = game.add.sprite(0, 0, 'sail');
+            base_ship.anchor.setTo(0.5, 0.5);
+            boxes.anchor.setTo(0.5, 0.5);
+            fish.anchor.setTo(0.5, 0.5);
+            sail.anchor.setTo(0.5, 0.5);
+
+            ship.addChild(base_ship);
+            ship.addChild(boxes);
+            ship.addChild(fish);
+            ship.addChild(sail);
+            ship.body.damping = 0.9;
             ship.body.mass = 1;
+            base_ship.inputEnabled = true;
 
 
+            base_ship.events.onInputDown.add(start_animation, this);
 
+            game.physics.p2.enable([island_1, island_2], false);
+            ship.body.clearShapes();
+            ship.body.loadPolygon('ship_col', 'ship');
+            island_1.body.clearShapes();
+            island_1.body.loadPolygon('island_1_col', 'island_1');
+            island_2.body.clearShapes();
+            island_2.body.loadPolygon('island_2_col', 'island_2');
 
-
-
-
-
-
+            island_1.body.static = true;
+            island_2.body.static = true;
 
             //camera
             game.camera.follow(ship);
             game.camera.deadzone = new Phaser.Rectangle(450, 250, 450, 100);
             game.camera.focusOnXY(0, 0);
-
             cursors = game.input.keyboard.createCursorKeys();
 
+        }
 
-            //pirates
-            /*
-            for (let i = 0; i < 10; i++) {
+/*
+            for (let i = 0; i < 100; i++) {
                 let pirate_ship = game.add.sprite(game.rnd.between(900, 1500), game.world.randomY, 'pirates' );
                 game.physics.arcade.enable(pirate_ship);
                 pirate_ship.body.velocity.x = game.rnd.between(-25, -50);
@@ -100,87 +117,64 @@
                 pirate_ship.checkWorldBounds = true;
                 pirate_ship.events.onOutOfBounds.add(resetSprite, this);
             }
-			*/
-
-
-        }
-
-
-
-
 
      function resetSprite(sprite) {
 
            sprite.x = game.world.bounds.right;
 
         }
+*/
 
         function update () {
 
-if (cursors.left.isDown)
-    {
-        ship.body.rotateLeft(50);
-    }
-    else if (cursors.right.isDown)
-    {
-        ship.body.rotateRight(50);
-    }
-    else
-    {
-        ship.body.setZeroRotation();
-    }
-
-    if (cursors.up.isDown)
-    {
-        ship.body.thrust(250);
-    }
-    else if (cursors.down.isDown)
-    {
-        ship.body.reverse(50);
-    }
-
-
 /*
-        	            // game.physics.arcade.collide(ship, island2);
-
-            if (cursors.left.isDown)
-            {
-                ship.angle -= 2;
+            if (cursors.left.isDown) {
+                ship.body.rotateLeft(4);
+                ship.body.thrust(20);
+                handweel.rotation = -ship.rotation;
             }
-            else if (cursors.right.isDown)
-            {
-                ship.angle += 2;
+            else if (cursors.right.isDown) {
+                ship.body.rotateRight(4);
+                ship.body.thrust(20);
+                handweel.rotation = -ship.rotation;
+
+            }
+            else {
+                ship.body.setZeroRotation();
             }
 
-            if (cursors.up.isDown)
-            {
+            if (cursors.up.isDown) {
+                ship.body.thrust(30);
 
-                currentSpeed = 200;
             }
-            else
-            {
-                if (currentSpeed > 0)
-                {
-                    currentSpeed -= 2;
-                }
-            }
-            if (currentSpeed > 0)
-            {
-                game.physics.arcade.velocityFromRotation(ship.rotation, currentSpeed, ship.body.velocity);
-
-
+            else if (cursors.down.isDown) {
+                ship.body.reverse(50);
             }
 */
             ocean.tilePosition.x = -game.camera.x;
             ocean.tilePosition.y = -game.camera.y;
 
-        }
+
+            let x = game.input.mousePointer.positionDown.x+game.camera.x;
+            let y = game.input.mousePointer.positionDown.y+game.camera.y;
+            game.debug.text("x:" + x + " y:" + y, 20, 30);
+
+            // ship.body.velocity.y=game.input.activePointer.positionDown.y;
+            // ship.body.velocity.x=game.input.activePointer.positionDown.x;
+
+                let dx = x - ship.x;
+                let dy = y - ship.y;
+                shipRotation= Math.atan2(dy, dx);
+                ship.body.rotation = shipRotation + game.math.degToRad(-90);
+                let angle = ship.body.rotation + (Math.PI / 2);
+                ship.body.velocity.x = 50 * Math.cos(angle);
+                ship.body.velocity.y = 50 * Math.sin(angle);}
 
 
 
 
         function render () {
-
+            game.debug.text('FPS: ' + game.time.fps || 'FPS: --', 40, 40, "#00ff00");
         }
 
 

@@ -1,0 +1,136 @@
+{ 
+    
+    "island_2": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   125.5, 352  ,  134.5, 334  ,  144, 332.5  ,  153, 347.5  ,  147, 360.5  ,  128.5, 371  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   203, 197.5  ,  189.5, 209  ,  191, 189.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   382, 97.5  ,  353, 102.5  ,  371, 82.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   658.5, 283  ,  660.5, 252  ,  674, 256.5  ,  675.5, 280  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   162.5, 358  ,  184, 423.5  ,  150.5, 396  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   532, 130.5  ,  507.5, 401  ,  452.5, 423  ,  514, 125.5  ,  529, 121.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   496.5, 118  ,  452.5, 423  ,  436.5, 435  ,  453, 100.5  ,  475, 92.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   630, 391.5  ,  601, 373.5  ,  618, 368.5  ,  638, 385.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   601, 373.5  ,  577, 374.5  ,  617.5, 359  ,  618, 368.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   392.5, 497  ,  347, 485.5  ,  436.5, 435  ,  437.5, 476  ,  421.5, 495  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   177.5, 443  ,  184, 423.5  ,  232, 470.5  ,  204, 477.5  ,  186, 470.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   658.5, 283  ,  650.5, 295  ,  577, 374.5  ,  624, 218.5  ,  660.5, 252  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   452.5, 423  ,  507.5, 401  ,  495, 420.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   290, 104.5  ,  334, 97.5  ,  353, 102.5  ,  255.5, 166  ,  261.5, 132  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   617.5, 359  ,  577, 374.5  ,  650.5, 295  ,  640.5, 346  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   546, 379.5  ,  532, 130.5  ,  624, 218.5  ,  577, 374.5  ,  570, 381.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   162.5, 358  ,  240.5, 185  ,  255.5, 166  ,  353, 102.5  ,  409, 103.5  ,  436.5, 435  ,  232, 470.5  ,  184, 423.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   440.5, 84  ,  436.5, 435  ,  409, 103.5  ,  429.5, 83  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   151.5, 295  ,  189.5, 209  ,  203, 197.5  ,  240.5, 185  ,  162.5, 358  ,  153, 347.5  ,  144, 332.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   624, 218.5  ,  532, 130.5  ,  573.5, 144  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   409, 103.5  ,  353, 102.5  ,  382, 97.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   249, 480.5  ,  232, 470.5  ,  436.5, 435  ,  347, 485.5  ,  324.5, 496  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   507.5, 401  ,  532, 130.5  ,  546, 379.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   452.5, 423  ,  496.5, 118  ,  514, 125.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   436.5, 435  ,  440.5, 85  ,  453, 100.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   685, 215  ,  650, 213  ,  651, 158  ,  691, 158  ]
+        }
+    ]
+}

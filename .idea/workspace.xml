@@ -2,6 +2,436 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07b7e24-f11d-4155-954c-d2732557105d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Effects/explosion1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Effects/explosion2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Effects/explosion3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Effects/fire1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Effects/fire2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/cannon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/cannonBall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/cannonLoose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/cannonMobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/crew (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/flag (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullLarge (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullLarge (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullLarge (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullLarge (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullSmall (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullSmall (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullSmall (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/hullSmall (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/nest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/pole.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (14).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (15).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (16).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (17).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (18).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (19).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (20).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (21).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (22).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (23).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (24).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailLarge (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/sailSmall (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/wood (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/wood (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/wood (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ship parts/wood (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghyLarge1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghyLarge2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghyLarge3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghySmall1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghySmall2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/dinghySmall3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (14).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (15).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (16).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (17).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (18).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (19).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (20).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (21).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (22).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (23).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (24).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Ships/ship (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_87.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Default size/Tiles/tile_96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Effects/explosion1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Effects/explosion2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Effects/explosion3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Effects/fire1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Effects/fire2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/cannon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/cannonBall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/cannonLoose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/cannonMobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/crew (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/flag (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullLarge (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullLarge (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullLarge (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullLarge (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullSmall (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullSmall (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullSmall (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/hullSmall (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/nest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/pole.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (14).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (15).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (16).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (17).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (18).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (19).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (20).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (21).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (22).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (23).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (24).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailLarge (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/sailSmall (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/wood (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/wood (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/wood (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ship parts/wood (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghyLarge1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghyLarge2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghyLarge3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghySmall1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghySmall2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/dinghySmall3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (10).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (11).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (12).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (13).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (14).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (15).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (16).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (17).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (18).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (19).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (20).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (21).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (22).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (23).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (24).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (3).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (4).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (5).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (6).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (7).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (8).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Ships/ship (9).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_87.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/PNG/Retina/Tiles/tile_96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Preview_KenneyNL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Sample.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Spritesheet/shipsMiscellaneous_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Spritesheet/shipsMiscellaneous_sheet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Spritesheet/shipsMiscellaneous_sheet@2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Spritesheet/shipsMiscellaneous_sheet@2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Tilesheet/tiles_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Tilesheet/tiles_sheet@2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Tilesheet/tilesheets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Vector/shipsMiscellaneous_vector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Vector/shipsMiscellaneous_vector.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Vector/tile_vector.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PiratePack/Vector/tiles_vector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/SmallWorld-Mockup-2-790698.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/collisions.pes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_japan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/island_japan2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/land_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pirate_ship.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ship particle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ship.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/test_water.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/water.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/water.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/water2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -21,18 +451,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="water.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/water.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +501,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,20 +530,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Phaser game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phaser game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phaser game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,16 +641,21 @@
       <workItem from="1519887212519" duration="19213000" />
       <workItem from="1519972705753" duration="21502000" />
       <workItem from="1520094401004" duration="2289000" />
+      <workItem from="1520327514869" duration="15647000" />
+      <workItem from="1520402058670" duration="22995000" />
+      <workItem from="1520507651664" duration="7176000" />
+      <workItem from="1520576173558" duration="6101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48403000" />
+    <option name="totallyTimeSpent" value="100322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12148438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.025622254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -273,6 +684,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -331,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding />
         </state>
       </provider>
